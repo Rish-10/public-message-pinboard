@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Pinboard</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+    </head>
+    <body>
+        <img id="champion-img" src="images/discussion.png">
+        <h1 id="title">Our Family Pins</h1>
+        <textarea id="pinboard-input" placeholder="Write your message here" onsubmit="document.body.style.zoom='100%'"></textarea>
+        <div id="from-to">
+            <input type="text" class="directing-msg" id="from-input" placeholder="From">
+            <input type="text" class="directing-msg" id="to-input" placeholder="To">
+        </div>
+        <button id="publish-btn">Publish</button>
+        <h2 id="endorsements">- Pinboard -</h2>
+        <ul id="msg-list"></ul>
+
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
